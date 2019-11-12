@@ -1,5 +1,6 @@
-const R = require('ramda');
+import R from "ramda"
 
-function join_email_addresses(email_addresses:Array<string>, names:Array<string>):string {
+export function join_email_addresses(email_addresses:Array<string>, names:Array<string>):string {
+    return "xxx"
 
 }
