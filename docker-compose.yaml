@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  gsuite_functions:
+    build:
+      context: .
+      target: gsuite_functions
+    volumes:
+      - .:./project
+    working_dir: "/project/"
